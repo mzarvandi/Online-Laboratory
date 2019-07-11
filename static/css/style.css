@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/Yekan.eot?#') format('eot'),  
+         url('fonts/Yekan.woff') format('woff'),
+         url('fonts/Yekan.ttf') format('truetype');
+    
+    font-style:normal;
+    font-weight:normal;
+  }
+  @font-face {
+    font-family: 'Setarehbold';
+    src: url('fonts/Setarehbold.eot?#') format('eot'),  
+         url('fonts/Setarehbold.woff') format('woff'),
+         url('fonts/Setarehbold.ttf') format('truetype');
+    
+    font-style:normal;
+    font-weight:normal;
+  }
+body {
+    background-image: url("blur.jpg");
+    background-size: 100%;
+    background-color: rgb(7, 2, 75);
+    margin: 0px;
+    background-position-y: 30px;
+    padding: 0;
+    font-family: 'Yekan','tohoma';
+    line-height: 25px;                
+                }
+body.mainpage{
+
+    background-image: url("back.jpg");
+
+}
+
+header {
+        height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        background: rgb(250, 124, 40);
+}
+search {
+    direction: rtl;
+    margin: 100px 650px;
+    padding:20px;
+    width:500px;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+
+input{
+    border: 2px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width:12 ,mvk0px;
+    text-align: center;
+    font-family: 'Yekan' 
+
+}
+input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 4px dodgerblue;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+select {
+    margin: 20px 20px;
+    padding: 20px;
+    width:80px;
+
+}
+form {
+    direction: rtl;
+    display: inline-block;
+    margin: 20px;
+    display: block;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+li {
+    display: inline-block;  
+    margin:10px;
+    padding: 0px 0px 0px 0px;  
+}
+
+
+footer {
+    margin: 20px 20px;
+    direction: rtl;
+}
+
+button {
+    background-color: rgb(7, 173, 35);
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px 350px 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Yekan'
+    }
+barbutton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    display: inline-block;  
+    font-size: 16px;
+    font-family: 'Yekan';
+    }
+    .logo {
+        font-size: 30px;
+        font-family: 'Setarehbold';
+        width: 180px;
+        margin-left: 850px;
+        
+    }
+    .bar{
+        display: inline-block;  
+        width: 50px;
+        direction: center;
+    }    
+about {
+        
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+        direction: rtl;
+        padding: 20px; 
+        background-color: rgb(7, 2, 75);
+    }
+about1.image{
+    display: inline-block;
+    padding: 10px 10px;
+        direction: rtl;
+        width: 30%;
+    }
+about2.image{
+    display: inline-block;
+    padding: 10px 10px;
+    direction: rtl;
+    width: 30%;
+}
+about3.image{
+    display: inline-block;
+    padding: 10px 10px;
+    direction: rtl;
+    width: 30%;
+}
+signup {
+
+    direction: rtl;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:40%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+signin{
+
+    direction: rtl;
+    display: block;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:40%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+followup{
+    direction: rtl;
+    display: block;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:40%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+reserve {
+    direction: rtl;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:40%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+
+form.signupform{
+    padding:0 15% 0 25%;
+    text-align:left;
+}
+form.signinform{
+    padding:0 10% 0 30%;
+    text-align:left;
+}
+form.reserveform{
+    text-align:center;
+}
+a{
+    color: papayawhip
+}
+.sidenav {
+
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 20px;
+    right: 0;
+    background-color: rgb(7, 2, 75,0.5);
+    overflow-x: hidden;
+    float:right;
+}
+.panelbody{
+    margin-right: 270px;
+}
+
+sidebarbutton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;  
+    font-size: 16px;
+    font-family: 'Yekan';
+    width: 250px;
+    }

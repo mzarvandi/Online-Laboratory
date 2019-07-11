@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/Yekan.eot");
+    src: url("../fonts/Yekan.eot?#iefix") format("embedded-opentype"), url("../fonts/Yekan.woff") format("woff"), url("../fonts/Yekan.ttf") format("truetype"), url("../fonts/Yekan.svg#BYekan") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+body, html {
+	background-image: url('images/1.jpg');
+    background-repeat:no-repeat;
+    background-position: 50px;
+	background-color: #fff;
+    scroll-behavior: smooth;
+    direction: rtl;
+    font-family: 'yekan', serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-nav {
+    float: none !important;
+}
+
+.navbar-nav > li {
+    float: none;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+.navbar div {
+    color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #ffcc00;
+    /*color: #33334d;*/
+
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin-top: 50px;
+    right: 0;
+    background-color: #ff9900;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #33334d;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-right: 160px;
+    padding-right: 5px;
+    padding-top: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
