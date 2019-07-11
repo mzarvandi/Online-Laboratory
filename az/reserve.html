@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                آزمایشگاه آنلاین
+            </title>
+            <link rel="stylesheet" href="style.css">
+
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li><barbutton class="logo"><a href = "index.html"style='text-decoration:none;'>آزمایشگاه آنلاین</a></barbutton>
+                        </li>
+                        <li><barbutton class="bar"><a href = "signup.html"style='text-decoration:none;'>ثبت‌نام</a></barbutton>
+                        </li>
+                        <li><barbutton class="bar"></barbutton><a href = "signin.html"style='text-decoration:none;'>ورود</a></barbutton>
+                        </li>
+                    </ul>
+                </nav>  
+            </header>
+            <reserve>
+                <h1 style="color:black; font-size: 30px" >
+                    رزرو نوبت      
+                    
+                    </h1>
+                    <form class="reserveform">
+                        شهر:
+                        <select>
+                                <option value="tehran">تهران</option>
+                                <option value="isfahan">اصفهان</option>
+                              </select>
+                        
+                        <p>نام آزمایشگاه:
+                                <input type="text" placeholder="نام آزمایشگاه" required>
+                                <br>
+                        </p>
+
+                        <p>تاریخ:
+                            
+                        <input type="date" id="start" name="trip-start"
+                            min="2019-01-01" max="2020-12-31" required>
+                            <br>
+                    </p>
+                    <p>ساعت:
+                            
+                        <input type="time" id="appt" name="appt"
+                        min="9:00" max="18:00" required>
+                            <br>
+                    </p>
+
+                    <p>نحوه‌ی انجام آزمایش:    
+                        <br>       
+                        <input type="radio" name="type" value="place"> مراجعه کارمندان به محل بیمار<br>
+                        <input type="radio" name="type" value="lab"> مراجعه بیمار به آزمایشگاه<br>
+                            <br>
+                    </p>      
+                        <button class="search"><a href = "accept.html"style='text-decoration:none;'>رزرو</a></button></form>
+                    
+
+            </reserve>
+            
+
+            <hr>
+            <footer style="color:black; font-size: 30px">ارتباط با ما
+                
+               <h1 style="color:black; font-size: 20px">
+                    <br>
+                آدرس: اصفهان - دانشگاه صنعتی اصفهان
+                <br>
+                شماره تماس: ۱۰ ۲۲ ۹۱ ۳۳ - ۰۳۱
+                <br>
+                در صورت نیاز می‌توانید با ایمیل زیر در ارتباط باشید:</h1>
+               <h2 style="color:black; font-size: 20px">niloofar.latifian@gmail.com</h2>
+               
+            </footer>
+            
+        </body>
+             
+    </html>
+    
