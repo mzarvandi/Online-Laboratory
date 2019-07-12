@@ -20,6 +20,7 @@
                     </ul>
                 </nav>  
             </header>
+    
             <panel class = "sidenav">
                     <sidebarbutton><a href = "index_signedin.html"style='text-decoration:none;'>جستجوی آزمایشگاه‌ها و رزرو نوبت</a></sidebarbutton>
                     <br>
@@ -32,19 +33,40 @@
                     <sidebarbutton><a href = "logout.html"style='text-decoration:none;'>خروج</a></sidebarbutton>
                 
             </panel>
+            <mainpartpanel class="panelbody">
+                    <h1 style="color:black; font-size: 30px" >
+                    جستجوی آزمایشگاه‌ها        
+                    
+                    </h1>
+                <form action="reserve.html" method="GET">
 
-            <mainpartpanel>
-                <h1> به آزمایشگاه آنلاین خوش‌ آمدید!</h1>
-                <br>
-                <h4>این سایت آماده‌ی خدمت‌رسانی به بیماران برای رزرو نوبت در آزمایشگاه‌ها و دیدن نتایج آزمایش به صورت آنلاین می‌باشد.</h4>
-                <h4>با استفاده از آزمایشگاه آنلاین، دیگر نیاز به مراجعه‌ی حضوری به آزمایشگاه برای دریافت پاسخ نیست! پاسخ آزمایش خود را به صورت آنلاین دریافت کنید.</h4>
-                <br>
-                <h5>از منوی سمت راست عملیات موردنظر خود را انتخاب نمایید.</h5>
+                    شهر:
+                    <select>
+                            <option value="tehran">تهران</option>
+                            <option value="isfahan">اصفهان</option>
+                          </select>
+                    
+                    <p>نام آزمایشگاه:
+                            <select>
+                                    <option value="tehran">تهران</option>
+                                    <option value="isfahan">اصفهان</option>
+                                  </select>
+                            <br>
+                    </p>
+                    <p>نوع آزمایش:
+                            <select>
+                                    <option value="tehran">تهران</option>
+                                    <option value="isfahan">اصفهان</option>
+                                  </select>
+                        <br>
+                </p>
+
+                    <button class="search"><a href = "about_lab_signedin.html"style='text-decoration:none;'>جستجو</a></button></form>
+                
             </mainpartpanel>
-            
-
             <hr class= "panelbody">
-            <footer class= "panelbody" style="color:black; font-size: 30px">ارتباط با ما
+
+            <footer class="panelbody" style="color:black; font-size: 30px">ارتباط با ما
                 
                <h1 style="color:black; font-size: 20px">
                     <br>
@@ -56,7 +78,6 @@
                <h2 style="color:black; font-size: 20px">niloofar.latifian@gmail.com</h2>
                
             </footer>
-            
         </body>
              
     </html>

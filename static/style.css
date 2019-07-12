@@ -16,6 +16,7 @@
     font-style:normal;
     font-weight:normal;
   }
+
 body {
     background-image: url("blur.jpg");
     background-size: 100%;
@@ -27,23 +28,29 @@ body {
     line-height: 25px;                
                 }
 body.mainpage{
-
     background-image: url("back.jpg");
 
 }
 
-header {
+header{
         height: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 20px;
+        width:100%;
+        padding: 10px 10px 10px 0px;
+        margin: 0px 0px 20px 0px;
         background: rgb(250, 124, 40);
+        position: fixed;
 }
-search {
+
+search{
     direction: rtl;
-    margin: 100px 650px;
+    display: block;
+    text-align: center;
+    margin-right: 9%;
+    margin-left: 12%;
     padding:20px;
-    width:500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width:72%;
     display: inline-block;    
     background-color: rgb(100, 100, 100,0.6);
     
@@ -158,13 +165,12 @@ about3.image{
     width: 30%;
 }
 signup {
-
     direction: rtl;
     display: block;
     margin-left: 30%;
     margin-right: 30%;
     padding:20px;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     width:40%;
     display: inline-block;    
@@ -172,16 +178,64 @@ signup {
     
 }
 signin{
-
     direction: rtl;
     display: block;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
     padding:20px;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     width:40%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+mainpartpanel{
+    direction: rtl;
+    display: block;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 3%;
+    padding:20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width:72%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
+
+.followupbutton{
+    background-color: rgb(7, 173, 35);
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 40px 80% 20px 10%;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Yekan'
+}
+
+.followupinput{
+    width: 200px;
+}
+
+aboutlab{
+    direction: rtl;
+    display: block;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding:20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width:70%;
     display: inline-block;    
     background-color: rgb(100, 100, 100,0.6);
     
@@ -203,15 +257,31 @@ followup{
 reserve {
     direction: rtl;
     display: block;
-    margin-left: 30%;
-    margin-right: 30%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 40%;
     padding:20px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 50px;
     width:40%;
     display: inline-block;    
     background-color: rgb(100, 100, 100,0.6);
     
+}
+
+.reservebutton{
+    background-color: rgb(7, 173, 35);
+    border: none;
+    color: white;
+    margin: 10px 45% 0 20%;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Yekan'
 }
 
 form.signupform{
@@ -257,3 +327,47 @@ sidebarbutton{
     font-family: 'Yekan';
     width: 250px;
     }
+ 
+
+
+panelabout{
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+        direction: rtl;
+        padding: 20px 20px;
+        margin-right: 250px;
+        background-color: rgb(7, 2, 75);
+    }
+panelabout1.image{
+    display: inline-block;
+    padding: 10px 10px;
+        direction: rtl;
+        width: 30%;
+    }
+panelabout2.image{
+    display: inline-block;
+    padding: 10px 10px;
+    direction: rtl;
+    width: 30%;
+}
+panelabout3.image{
+    display: inline-block;
+    padding: 10px 10px;
+    direction: rtl;
+    width: 30%;
+}
+panelfooter {
+    margin: 20px 270px;
+    direction: rtl;
+}
+
+panelsearch{
+    direction: rtl;
+    margin: 150px 20px 100px 300px;
+    padding:20px;
+    width:500px;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
