@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
     <html>
         <head>
             <title>
@@ -7,7 +7,7 @@
             <link rel="stylesheet" href="style.css">
 
         </head>
-        <body>
+        <body class = "mainpage">
             <header>
                 <nav>
                     <ul>
@@ -20,25 +20,38 @@
                     </ul>
                 </nav>  
             </header>
-            <followup>
+            <panel class = "sidenav">
+                    <sidebarbutton><a href = "index_signedin.html"style='text-decoration:none;'>جستجوی آزمایشگاه‌ها و رزرو نوبت</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "done_tests.html"style='text-decoration:none;'>آزمایش‌های تمام شده</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "followup.html"style='text-decoration:none;'>پیگیری جواب آزمایش</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "patient_info.html"style='text-decoration:none;'>مشاهده اطلاعات کاربر</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "logout.html"style='text-decoration:none;'>خروج</a></sidebarbutton>
+                
+            </panel>
+
+                    <mainpartpanel>
                             <h1 style="color:black; font-size: 30px" >
                             پیگیری    
                             
                             </h1>
-                        <form class="signinform">
+                            <br>
+                        <form>
                             <p>کد پیگیری آزمایش:
-                                <input type="text" placeholder="کد پیگیری">
+                                <input class= "followupinput" type="text" placeholder="کد پیگیری">
                                 
                         </p>
                    </form>
-                            <button class="signup"><a href = "test_result.html"style='text-decoration:none;'>پیگیری</a></button>
+                            <button class="followupbutton"><a href = "test_result.html"style='text-decoration:none;'>پیگیری</a></button>
                         
-            </followup>
+            </mainpartpanel>
+            
 
-
-            <hr>
-
-            <footer style="color:black; font-size: 30px">ارتباط با ما
+            <hr class= "panelbody">
+            <footer class= "panelbody" style="color:black; font-size: 30px">ارتباط با ما
                 
                <h1 style="color:black; font-size: 20px">
                     <br>

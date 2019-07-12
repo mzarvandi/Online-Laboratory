@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
     <html>
         <head>
             <title>
@@ -7,7 +8,7 @@
             <link rel="stylesheet" href="style.css">
 
         </head>
-        <body>
+        <body class = "mainpage">
             <header>
                 <nav>
                     <ul>
@@ -20,58 +21,68 @@
                     </ul>
                 </nav>  
             </header>
-            <reserve>
-                <h1 style="color:black; font-size: 30px" >
-                    رزرو نوبت      
-                    
-                    </h1>
-                    <form class="reserveform">
-                        شهر:
-                        <select>
-                                <option value="tehran">تهران</option>
-                                <option value="isfahan">اصفهان</option>
-                              </select>
+    
+            <panel class = "sidenav">
+                    <sidebarbutton><a href = "index_signedin.html"style='text-decoration:none;'>جستجوی آزمایشگاه‌ها و رزرو نوبت</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "done_tests.html"style='text-decoration:none;'>آزمایش‌های تمام شده</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "followup.html"style='text-decoration:none;'>پیگیری جواب آزمایش</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "patient_info.html"style='text-decoration:none;'>مشاهده اطلاعات کاربر</a></sidebarbutton>
+                    <br>
+                    <sidebarbutton><a href = "logout.html"style='text-decoration:none;'>خروج</a></sidebarbutton>
+                
+            </panel>
+            <mainpartpanel>
+                    <h1 style="color:black; font-size: 30px" >
+                        رزرو نوبت      
                         
-                        
-                        <p>نام آزمایشگاه:
-                                <input type="text" placeholder="نام آزمایشگاه" required>
+                        </h1>
+                        <form class="reserveform">
+                                <p>
+                            شهر:
+                            <select>
+                                    <option value="tehran">تهران</option>
+                                    <option value="isfahan">اصفهان</option>
+                                  </select>
+                            
+                            
+                            نام آزمایشگاه:
+                                    <select>
+                                            <option value="blod">خون</option>
+                                          </select>
+                           
+    
+                            نوع آزمایش:
+                                    <select>
+                                            <option value="blod">خون</option>
+                                          </select>
+                            </p>
+    
+                            <p>تاریخ:
+                                
+                            <input type="date" id="start" name="trip-start"
+                                min="2019-01-01" max="2020-12-31" required>
+                        ساعت:
+                                
+                            <input type="time" id="appt" name="appt"
+                            min="9:00" max="18:00" required>
                                 <br>
                         </p>
-
-                        <p>نوع آزمایش:
-                                <select>
-                                        <option value="blod">خون</option>
-                                      </select>
+    
+                        <p>نحوه‌ی انجام آزمایش:    
+                            <input type="radio" name="type" value="place"> مراجعه کارمندان به محل بیمار
+                            <input type="radio" name="type" value="lab"> مراجعه بیمار به آزمایشگاه<br>
                                 <br>
-                        </p>
+                        </p>      
+                            <button class="reservebutton"><a href = "accept.html"style='text-decoration:none;'>رزرو</a></button></form>
+                        
+    
+                </mainpartpanel>
+            <hr class= "panelbody">
 
-                        <p>تاریخ:
-                            
-                        <input type="date" id="start" name="trip-start"
-                            min="2019-01-01" max="2020-12-31" required>
-                            <br>
-                    </p>
-                    <p>ساعت:
-                            
-                        <input type="time" id="appt" name="appt"
-                        min="9:00" max="18:00" required>
-                            <br>
-                    </p>
-
-                    <p>نحوه‌ی انجام آزمایش:    
-                        <br>       
-                        <input type="radio" name="type" value="place"> مراجعه کارمندان به محل بیمار<br>
-                        <input type="radio" name="type" value="lab"> مراجعه بیمار به آزمایشگاه<br>
-                            <br>
-                    </p>      
-                        <button class="search"><a href = "accept.html"style='text-decoration:none;'>رزرو</a></button></form>
-                    
-
-            </reserve>
-            
-
-            <hr>
-            <footer style="color:black; font-size: 30px">ارتباط با ما
+            <footer class="panelbody" style="color:black; font-size: 30px">ارتباط با ما
                 
                <h1 style="color:black; font-size: 20px">
                     <br>
@@ -83,7 +94,6 @@
                <h2 style="color:black; font-size: 20px">niloofar.latifian@gmail.com</h2>
                
             </footer>
-            
         </body>
              
     </html>
