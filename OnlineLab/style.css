@@ -43,9 +43,14 @@ header{
 
 search{
     direction: rtl;
-    margin: 100px 650px;
+    display: block;
+    text-align: center;
+    margin-right: 9%;
+    margin-left: 12%;
     padding:20px;
-    width:500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width:72%;
     display: inline-block;    
     background-color: rgb(100, 100, 100,0.6);
     
