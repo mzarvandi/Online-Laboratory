@@ -186,6 +186,21 @@ signin{
     background-color: rgb(100, 100, 100,0.6);
     
 }
+aboutlab{
+
+    direction: rtl;
+    display: block;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding:20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:70%;
+    display: inline-block;    
+    background-color: rgb(100, 100, 100,0.6);
+    
+}
 followup{
     direction: rtl;
     display: block;
@@ -212,6 +227,22 @@ reserve {
     display: inline-block;    
     background-color: rgb(100, 100, 100,0.6);
     
+}
+
+.reservebutton{
+    background-color: rgb(7, 173, 35);
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px 80% 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Yekan'
 }
 
 form.signupform{
