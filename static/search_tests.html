@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
     <html>
         <head>
             <title>
@@ -21,25 +22,32 @@
                 </nav>  
             </header>
             <panel class = "sidenav">
-                    <sidebarbutton><a href = "index_signedin.html"style='text-decoration:none;'>جستجوی آزمایشگاه‌ها و رزرو نوبت</a></sidebarbutton>
+                    <sidebarbutton><a href = "managment.html"style='text-decoration:none;'>مدیریت آزمایشگاه</a></sidebarbutton>
                     <br>
-                    <sidebarbutton><a href = "done_tests.html"style='text-decoration:none;'>آزمایش‌های تمام شده</a></sidebarbutton>
+                    <sidebarbutton><a href = "employee_done_tests.html"style='text-decoration:none;'>آزمایش‌های انجام شده توسط شما</a></sidebarbutton>
                     <br>
-                    <sidebarbutton><a href = "followup.html"style='text-decoration:none;'>پیگیری جواب آزمایش</a></sidebarbutton>
+                    <sidebarbutton><a href = "upload.html"style='text-decoration:none;'>آپلود نتیجه آزمایش</a></sidebarbutton>
                     <br>
-                    <sidebarbutton><a href = "patient_info.html"style='text-decoration:none;'>مشاهده اطلاعات کاربر</a></sidebarbutton>
+                    <sidebarbutton><a href = "search_tests.html"style='text-decoration:none;'>جستجوی آزمایش‌ها</a></sidebarbutton>
                     <br>
                     <sidebarbutton><a href = "logout.html"style='text-decoration:none;'>خروج</a></sidebarbutton>
                 
             </panel>
 
             <mainpartpanel>
-                <h1> به آزمایشگاه آنلاین خوش‌ آمدید!</h1>
-                <br>
-                <h4>این سایت آماده‌ی خدمت‌رسانی به بیماران برای رزرو نوبت در آزمایشگاه‌ها و دیدن نتایج آزمایش به صورت آنلاین می‌باشد.</h4>
-                <h4>با استفاده از آزمایشگاه آنلاین، دیگر نیاز به مراجعه‌ی حضوری به آزمایشگاه برای دریافت پاسخ نیست! پاسخ آزمایش خود را به صورت آنلاین دریافت کنید.</h4>
-                <br>
-                <h5>از منوی سمت راست عملیات موردنظر خود را انتخاب نمایید.</h5>
+                    <h1 style="color:black; font-size: 30px" >
+                            جستجو میان آزمایش‌ها:    
+                            
+                            </h1>
+                            <br>
+                        <form>
+                            <p>کد آزمایش:
+                                <input class= "followupinput" type="text" placeholder="کد آزمایش">
+                                
+                        </p>
+                   </form>
+                            <button class="reservebutton"><a href = "test.html"style='text-decoration:none;'>جستجو</a></button>
+                        
             </mainpartpanel>
             
 
